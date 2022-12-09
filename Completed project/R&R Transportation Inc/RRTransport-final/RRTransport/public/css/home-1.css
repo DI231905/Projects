@@ -1,0 +1,41 @@
+
+
+.banner-info1:before {
+    height: 15%;
+}
+.banner-info1:after {
+    height: 15%;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1260px){
+    
+   
+    .banner-info1:before {
+    height: calc(100% - 382px);
+}
+
+.banner-info1:after {
+    height: calc(100% - 389px);
+}
+/*.contact {
+    padding: 0;
+}*/
+
+    
+}
+
+
+@media only screen and (max-width: 767px){
+    
+   
+.banner-info1:after {
+    height: calc(100% - 291px);
+}
+.banner-info1:before {
+    height: calc(100% - 288px);
+}
+    
+    
+}
+
+
